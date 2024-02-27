@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div>
       <div className='grid grid-cols-12 h-screen w-screen px-20'>
-        <div className='col-span-3 justify-start'>
+        <div className='col-span-3 pl-6'>
           <div className='text-4xl h-fit w-fit hover:bg-slate-800 rounded-full  p-2 cursor-pointer transition-all'>
             <FaTwitter />
           </div>
@@ -78,7 +78,13 @@ export default function Home() {
 
         </div>
 
-        <div className='col-span-6 border-r-[1px] border-l-[1px] border-gray-400'>
+        <div className='col-span-6 border-r-[1px] border-l-[1px] h-screen overflow-scroll border border-gray-600'>
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
           <FeedCard />
         </div>
         <div className='col-span-3'></div>
